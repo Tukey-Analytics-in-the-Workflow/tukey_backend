@@ -177,23 +177,31 @@ http://localhost:8000/docs
 
 ## ▶️ Running Locally
 
-### 1. Install dependencies
+### Quick Start
 
-```bash
-pip install -r requirements.txt
-```
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### 2. Start the server
+2. **Set up OpenAI API key:**
+   - Create a `.env` file in the project root
+   - Add: `OPENAI_API_KEY=your_api_key_here`
+   - Add: `OPENAI_MODEL=gpt-3.5-turbo`
 
-```bash
-uvicorn app.main:app --reload
-```
+3. **Start the server:**
+   ```bash
+   uvicorn app.main:app --reload
+   ```
 
-### 3. Health check
+4. **Health check:**
+   ```http
+   GET http://localhost:8000/health
+   ```
 
-```http
-GET /health
-```
+### 📖 Complete Setup Guide
+
+For detailed step-by-step instructions, see **[SETUP_GUIDE.md](SETUP_GUIDE.md)** - includes troubleshooting, virtual environment setup, and testing instructions.
 
 ---
 

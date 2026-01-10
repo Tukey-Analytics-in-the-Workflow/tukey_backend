@@ -15,7 +15,7 @@ Simple step-by-step guide to run Tukey Backend on your local system.
 
 ### Step 1: Open Terminal in Project Folder
 
-1. Navigate to the `tukey_backend-main` folder
+1. Navigate to the `tukey_backend` folder
 2. Right-click in the folder → **"Open in Terminal"** or **"Open PowerShell window here"**
 
 ### Step 2: Install Dependencies

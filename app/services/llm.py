@@ -1,5 +1,5 @@
 from openai import OpenAI
-from app.config import OPENAI_API_KEY, OPENAI_MODEL
+from app.config.config import OPENAI_API_KEY, OPENAI_MODEL
 import logging
 
 logger = logging.getLogger(__name__)

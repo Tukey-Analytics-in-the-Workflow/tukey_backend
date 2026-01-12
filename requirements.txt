@@ -3,5 +3,6 @@ uvicorn
 sqlalchemy
 python-jose
 pandas
+pydantic
 openai
 python-dotenv
